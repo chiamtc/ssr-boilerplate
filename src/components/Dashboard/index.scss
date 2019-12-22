@@ -1,0 +1,104 @@
+.mydiv {
+  margin:20px;
+}
+
+
+/*
+@import "~m3d";
+
+$main_navigation_bar_height: $MAIN_NAVIGATION_BAR_HEIGHT;
+.dashboard__container {
+  height: calc(100vh - #{($main_navigation_bar_height)});
+  width: 100%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 270px 1fr;
+  padding: 10px;
+  grid-template-areas: "welcomeMessage title1 title2 " "dashboard_map dashboard_map dashboard_map";
+  @media (max-width: $_960PX) {
+    grid-template-rows: 270px 270px 270px 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "welcomeMessage" "title1" "title2" "dashboard_map";
+  }
+  .withHalo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .welcomeMessage {
+    grid-area: welcomeMessage;
+  }
+
+  .titleTitle {
+    font-size: $PX_16;
+  }
+
+  .title1 {
+    grid-area: title1;
+    .sampleStats {
+      display: flex;
+      flex-direction: row;
+
+      .stats {
+        width: 50%;
+      }
+
+      .chart {
+        display: flex;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+
+        .innerChart {
+          width: 50%;
+        }
+      }
+
+    }
+  }
+
+  .title2 {
+    grid-area: title2;
+
+    .sampleStats {
+      display: flex;
+      flex-direction: row;
+
+      .stats {
+        width: 50%;
+      }
+
+      .chart {
+        display: flex;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+
+        .innerChart {
+          width: 50%;
+        }
+      }
+
+    }
+  }
+
+  .title3 {
+    grid-area: title3;
+  }
+
+  .dashboard_map {
+    @media (max-width: $_960PX) {
+      height:$AUDIO_INSPECTOR_WIDTH; //reason of this size - too lazy to redeclare another size
+      padding-bottom:$PX_16;
+    }
+    grid-area: dashboard_map;
+  }
+
+  .circularProgress {
+    color: $NOTES_LIST_BACKGROUND_COLOR;
+    //background-color: $NOTES_LIST_BACKGROUND_COLOR;
+  }
+}
+*/
